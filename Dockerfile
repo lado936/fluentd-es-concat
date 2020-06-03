@@ -1,4 +1,4 @@
-FROM fluent/fluentd
+FROM fluent/fluentd-kubernetes-daemonset:v1.10.4-debian-elasticsearch7-1.0
 
 RUN gem install fluent-plugin-elasticsearch
 RUN gem install fluent-plugin-concat
